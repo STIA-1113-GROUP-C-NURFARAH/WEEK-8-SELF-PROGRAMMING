@@ -1,0 +1,20 @@
+package method;
+
+public class SquareMain {
+
+	public static void main(String[] args) {
+		//A method without arguments and returning value
+		
+		SquareMain sm = new SquareMain();
+		int result;
+		
+		result = sm.square();
+		
+		System.out.println("Squared value of 10 is " + result);
+	}
+	int square() {
+		return 10 * 10;
+
+	}
+
+}
