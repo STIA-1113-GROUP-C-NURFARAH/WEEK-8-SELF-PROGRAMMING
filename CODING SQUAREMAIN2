@@ -1,0 +1,25 @@
+package method;
+
+public class SquareMain2 {
+
+	public static void main(String[] args) {
+		//A method accepting arguments and returning value
+		
+		SquareMain2 sm2 = new SquareMain2();
+		
+		int result;
+		int n;
+		
+		n = 3;
+		result = sm2.square(n);
+		System.out.println("Square of 3 is " + result + ".");
+		
+		n = 4;
+		result = sm2.square(n);
+		System.out.println("Square of 4 is " + result + ".");
+	}
+	int square(int i) {
+		return i * i;
+	}
+
+}
