@@ -1,0 +1,18 @@
+package method;
+
+public class MethodCall3 {
+
+	public static void main(String[] args) {
+		//A method with arguments and no returning value
+		
+		MethodCall3 mc = new MethodCall3();
+		
+		String name = "Nurfarah" ;
+		
+		mc.printName(name);
+	}
+	void printName(String n) {
+		System.out.println("Hello, " + n + "!");
+	}
+
+}
