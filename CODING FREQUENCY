@@ -1,0 +1,25 @@
+package array;
+import java.util.Scanner;
+public class Frequency {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner (System.in);
+		int [] array = new int[10];
+		int even = 0;
+		int odd = 0;
+		
+		System.out.print("Enter ten numbers: ");
+		
+		for(int i =0; i<array.length; i++) {
+			array[i] = sc.nextInt();
+			if(array[i]%2==0)
+				even = even + 1;
+			else
+				odd = odd + 1;
+		}
+		System.out.println("No. of even: " + even);
+		System.out.print("No. of odd: " + odd);
+	}
+
+}
