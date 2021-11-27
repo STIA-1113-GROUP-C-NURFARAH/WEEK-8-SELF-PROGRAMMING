@@ -1,0 +1,20 @@
+package array;
+
+public class MaximumValue {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		double [] marks = {97.5,75.3,53.1,86.4,64.8,42.0,100.0,57.9,46.8,90.0};
+		
+		double highest = marks[0];
+		
+		for(int i =1; i<marks.length; i++) {
+			if(marks[i]>highest)
+				highest = marks[i];
+			
+		}
+		System.out.print("Highest: " + highest);
+	}
+
+}
