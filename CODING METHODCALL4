@@ -1,0 +1,23 @@
+package method;
+import java.util.Scanner;
+public class MethodCall4 {
+
+	public static void main(String[] args) {
+		//A method with arguments and returning no value
+		
+		Scanner sc = new Scanner(System.in);
+		MethodCall4 mc = new MethodCall4();
+		
+		System.out.println("Enter name: ");
+		String name = sc.next();
+		System.out.println("Enter age: ");
+		int age = sc.nextInt();
+		mc.printName(name,age);
+	}
+	void printName(String n, int a) {
+		System.out.println("Hello, " + n + "!");
+		System.out.println("Your age now is " + a + " years old.");
+
+	}
+
+}
