@@ -1,0 +1,18 @@
+package method;
+
+public class MethodCall2 {
+
+	public static void main(String[] args) {
+		///A method accepting no arguments and returning no value
+		
+		MethodCall2 mc = new MethodCall2();
+		
+		mc.printMethod();
+		
+	}
+	
+	void printMethod() {
+		System.out.print("I Love Programming");
+	}
+
+}
