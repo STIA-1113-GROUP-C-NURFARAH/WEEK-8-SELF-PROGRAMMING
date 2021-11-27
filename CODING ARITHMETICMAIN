@@ -1,0 +1,20 @@
+package method;
+
+public class ArithmeticMain {
+
+	public static void main(String[] args) {
+		//A method accepting arguments and returning value
+		
+		ArithmeticMain am = new ArithmeticMain();
+		
+		System.out.println("10 + 20 = " + am.getSum(10,20));
+		System.out.println("20 x 40 = " + am.getProduct(20, 40));
+	}
+	int getSum(int i, int j) {
+		return i + j;
+	}
+	int getProduct(int x, int y) {
+		return x * y;
+	}
+
+}
